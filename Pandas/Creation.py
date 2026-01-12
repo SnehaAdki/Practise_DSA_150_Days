@@ -29,6 +29,7 @@ print("DataFrame saved to fruit_sales.csv")
 
 animals = pd.DataFrame({'Cows': [12, 20], 'Goats': [22, 19]}, index=['Year 1', 'Year 2'])
 animals.to_csv('Pandas/cows_and_goats.csv')
+animals.to_json('Pandas/cows_and_goats_formated.json')
 
 print(pd.options.display.max_rows) 
 print(pd.options.display.min_rows) 
